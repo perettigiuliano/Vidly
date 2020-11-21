@@ -34,7 +34,7 @@ namespace Vidly.Controllers
             {
                 Id = 1, 
                 Name = "John"
-            }, new Customer(){Id = 2, Name = "David"}};
+            }, new Customer(){Id = 2, Name = "David"}, new Customer(){Id = 2, Name = "Sam"}};
 
             var vm = new RandomMovieViewModel()
             {
