@@ -37,5 +37,10 @@ namespace Vidly.Controllers
             return Content("Id = " + Id);
         }
 
+        public ActionResult ByReleaseDate(int year, int month)
+        {
+            return Content(String.Format("year={0} month={1}", year, month));
+        }
+
     }
 }
