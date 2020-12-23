@@ -3,10 +3,16 @@
     ViewBag.Title = "Random";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@*
+    Comment
+    on
+    multiple
+    lines
+*@
 @{
     var className = Model.customers.Count > 2 ? "popular" : null;
 }
-<h2 class="@className">@Model.movie.Name</h2>
+<h1 class="@className">@Model.movie.Name</h1>
 @if (Model.customers.Count == 0)
 {
     <h2>No one rented this film before</h2>
